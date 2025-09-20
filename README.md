@@ -1,2 +1,38 @@
-Action: 'file_editor create /app/portfolio-static/README.md --file-text # Adarsh Singh - Portfolio Website\n\nA modern, professional portfolio website for Adarsh Singh, showcasing expertise in finance and chartered accountancy.\n\n## 📁 File Structure\n\n```\nportfolio-static/\n│── index.html          # Main HTML file with all content\n│── style.css           # Complete CSS styling\n│── script.js           # JavaScript for interactivity  \n│── CV.pdf              # Resume/CV file for download\n└── README.md           # This file\n```\n\n## 🚀 How to Use\n\n### Option 1: Direct Opening\n1. Download all files to a folder on your computer\n2. Double-click `index.html` to open in your browser\n3. The website will work completely offline!\n\n### Option 2: Web Hosting (Recommended)\nUpload all files to any web hosting service:\n\n**Free Hosting Options:**\n- **Netlify**: Drag and drop the folder to [netlify.com](https://netlify.com)\n- **GitHub Pages**: Upload to GitHub and enable Pages\n- **Vercel**: Connect GitHub repo or drag and drop\n- **Surge.sh**: Use command line tool for quick deployment\n\n## 🎨 Features\n\n✅ **Responsive Design** - Works on all devices (mobile, tablet, desktop)\n✅ **Modern Styling** - Professional blue-teal color scheme\n✅ **Smooth Animations** - Hover effects and smooth scrolling\n✅ **Mobile Navigation** - Hamburger menu for mobile devices\n✅ **Resume Download** - Working download button for CV\n✅ **Contact Information** - Direct email and phone links\n✅ **Professional Content** - All details from your CV included\n\n## 📱 Sections Included\n\n1. **Hero Section** - Name, title, and call-to-action buttons\n2. **About Me** - Professional summary and key highlights  \n3. **Skills & Expertise** - Technical and professional skills\n4. **Professional Experience** - Doshi Jain & Co. experience\n5. **Education** - CA progression and academic background\n6. **Contact** - Email, phone, and location information\n\n## 🔧 Customization\n\n### To Update Content:\n1. Open `index.html` in any text editor\n2. Find the section you want to modify\n3. Update the text between HTML tags\n4. Save and refresh the browser\n\n### To Change Colors:\n1. Open `style.css` \n2. Find color codes like `#3b82f6` (blue) and `#06b6d4` (teal)\n3. Replace with your preferred colors\n4. Save and refresh\n\n### To Update Resume:\n1. Replace `CV.pdf` with your updated resume file\n2. Keep the same filename or update the link in `index.html`\n\n## 📋 Contact Information Included\n\n- **Email**: singhadarsh00000@gmail.com\n- **Phone**: +91 9167480352  \n- **Location**: Mumbai, India\n- **LinkedIn**: Link placeholder (update as needed)\n\n## 🌟 Professional Highlights Featured\n\n- Growth-Oriented Finance Professional\n- CA Final candidate  \n- 4+ years experience in financial advisory\n- ₹300-600 Cr corporate turnover managed\n- "Man of the Series" award winner\n- Expertise in CFO Advisory, Due Diligence, Internal Audit\n\n## 📈 Performance\n\n- **Fast Loading** - Optimized CSS and minimal JavaScript\n- **SEO Friendly** - Proper heading structure and meta tags\n- **Cross-Browser** - Works on Chrome, Firefox, Safari, Edge\n- **Accessible** - Keyboard navigation and screen reader friendly\n\n## 🔒 Privacy & Security\n\nThis is a static website with no backend or data collection:\n- ✅ No personal data is stored or transmitted\n- ✅ No cookies or tracking\n- ✅ Safe to host on any platform\n- ✅ Contact form shows direct contact instructions\n\n## 🆘 Support\n\nIf you need to make changes or have questions:\n1. Most text can be edited directly in `index.html`\n2. Colors and styling can be changed in `style.css` \n3. The website is self-contained and works offline\n4. All modern web browsers are supported\n\n## 🎯 Deployment Tips\n\n1. **For Job Applications**: Upload to Netlify for a permanent URL\n2. **For Sharing**: Works perfectly when emailed as a folder\n3. **For Updates**: Just edit the HTML file and re-upload\n4. **For Custom Domain**: Most hosting services support custom domains\n\n---\n\n**This portfolio showcases Adarsh Singh\'s expertise in:**\n- CFO Advisory Services\n- Financial Due Diligence  \n- Internal Audit & Compliance\n- MIS Reporting & Analysis\n- Client Relationship Management\n\n*Ready to impress recruiters and hiring managers!* 🎉'
-Observation: Create successful: /app/portfolio-static/README.md
+# Adarsh Singh - Professional Finance Portfolio
+
+A modern, static portfolio website built to showcase my skills and experience as a growth-oriented finance professional. This website provides a comprehensive overview of my work in CFO advisory, financial due diligence, and strategic financial analysis.
+
+## Key Features
+
+* **Professional Design:** Clean, responsive, and modern user interface.
+* **Resume Download:** A direct link to download my resume (`Resume.pdf`).
+* **Contact Information:** Easy-to-access contact details for collaboration and opportunities.
+* **Interactive Elements:** Includes smooth scrolling and subtle animations for an enhanced user experience.
+* **Sections:** Detailed sections covering my professional summary, work experience, education, and skills.
+
+## Content Overview
+
+The portfolio content is based on my qualifications and professional journey:
+
+* **Summary:** Highlights my experience in CFO advisory, club audit, and financial due diligence.
+* **Education:** Details my academic qualifications, including my CA Final and Inter stages.
+* **Work Experience:** Describes my role as an Article Assistant at Doshi Jain & Co., with specific responsibilities in financial due diligence, internal audit, and tax audit.
+* **Skills:** Showcases my expertise in financial reporting, trend analysis, and proficiency in MS Office suite.
+
+## Technology Stack
+
+This website is built using a simple, efficient technology stack:
+
+* **HTML5:** For the page structure and content.
+* **CSS3:** For all styling and responsive design.
+* **JavaScript:** For interactive functionality like navigation and animations.
+* **Feather Icons:** A simple, open-source icon library for the user interface.
+
+## Getting Started
+
+To view the portfolio, simply visit the live site hosted on GitHub Pages.
+
+Alternatively, you can clone the repository to your local machine:
+
+```bash
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
