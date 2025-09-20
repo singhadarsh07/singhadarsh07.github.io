@@ -1,0 +1,1274 @@
+## 🎉 **Your Static Portfolio Website is Ready!**
+
+Here's your complete **portfolio-static** folder with all files:
+
+### 📁 **Files Structure (Exactly what you requested):**
+```
+portfolio-static/
+├── index.html          # Main website file
+├── style.css           # All styling and design
+├── script.js           # Interactive features  
+├── CV.pdf              # Your resume file
+└── README.md           # Usage instructions
+```
+
+## 💻 **How to Access Your Files:**
+
+### **Option 1: Copy from the system**
+All files are ready at `/app/portfolio-static/` - you can copy them directly.
+
+### **Option 2: Download individually**
+Action: view_bulk --path-list /app/portfolio-static/index.html,/app/portfolio-static/style.css,/app/portfolio-static/script.js,/app/portfolio-static/CV.pdf
+Observation: /app/portfolio-static/index.html:
+1|<!DOCTYPE html>
+2|<html lang="en">
+3|<head>
+4|    <meta charset="UTF-8">
+5|    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6|    <title>Adarsh Singh - Finance Professional Portfolio</title>
+7|    <link rel="stylesheet" href="style.css">
+8|    <link rel="preconnect" href="https://fonts.googleapis.com">
+9|    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+10|    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+11|</head>
+12|<body>
+13|    <!-- Navigation Header -->
+14|    <header class="header" id="header">
+15|        <nav class="nav">
+16|            <div class="nav-container">
+17|                <a href="#home" class="nav-logo">Adarsh Singh</a>
+18|                <div class="nav-menu" id="nav-menu">
+19|                    <a href="#home" class="nav-link">Home</a>
+20|                    <a href="#about" class="nav-link">About</a>
+21|                    <a href="#skills" class="nav-link">Skills</a>
+22|                    <a href="#experience" class="nav-link">Experience</a>
+23|                    <a href="#education" class="nav-link">Education</a>
+24|                    <a href="#contact" class="nav-link">Contact</a>
+25|                </div>
+26|                <div class="nav-toggle" id="nav-toggle">
+27|                    <span></span>
+28|                    <span></span>
+29|                    <span></span>
+30|                </div>
+31|            </div>
+32|        </nav>
+33|    </header>
+34|
+35|    <main>
+36|        <!-- Hero Section -->
+37|        <section class="hero" id="home">
+38|            <div class="hero-container">
+39|                <div class="hero-content">
+40|                    <div class="hero-badge">
+41|                        <span class="badge-dot"></span>
+42|                        Available for opportunities
+43|                    </div>
+44|                    <h1 class="hero-title">
+45|                        <span class="hero-greeting">Hi, I'm</span>
+46|                        <span class="hero-name">Adarsh Singh</span>
+47|                    </h1>
+48|                    <h2 class="hero-subtitle">Growth-Oriented Finance Professional</h2>
+49|                    <p class="hero-description">
+50|                        Experienced in CFO advisory, financial due diligence, and strategic financial analysis. 
+51|                        Passionate about delivering insights that drive business growth.
+52|                    </p>
+53|                    <div class="hero-buttons">
+54|                        <a href="CV.pdf" class="btn btn-primary" download>
+55|                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+56|                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+57|                                <polyline points="7,10 12,15 17,10"/>
+58|                                <line x1="12" y1="15" x2="12" y2="3"/>
+59|                            </svg>
+60|                            Download Resume
+61|                        </a>
+62|                        <a href="#contact" class="btn btn-secondary">
+63|                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+64|                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+65|                                <polyline points="22,6 12,13 2,6"/>
+66|                            </svg>
+67|                            Contact Me
+68|                        </a>
+69|                    </div>
+70|                </div>
+71|            </div>
+72|        </section>
+73|
+74|        <!-- About Section -->
+75|        <section class="about section" id="about">
+76|            <div class="container">
+77|                <div class="section-header">
+78|                    <h2 class="section-title">About Me</h2>
+79|                    <p class="section-subtitle">Passionate finance professional with a track record of excellence</p>
+80|                </div>
+81|                <div class="about-grid">
+82|                    <div class="about-content">
+83|                        <p class="about-text">
+84|                            Growth-oriented Chartered Accountant with hands-on articleship experience in CFO advisory, Club Audit and Financial due diligence. Eager to embrace challenges, learn new skills, and consistently push limits to achieve goals. Recognized as 'Man of the Series' for outstanding performance during articleship at Doshi Jain & Co.
+85|                        </p>
+86|                        <div class="highlights">
+87|                            <h3 class="highlights-title">Key Highlights</h3>
+88|                            <div class="highlights-list">
+89|                                <div class="highlight-item">
+90|                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+91|                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+92|                                    </svg>
+93|                                    <span>CA Final candidate with strong academic performance</span>
+94|                                </div>
+95|                                <div class="highlight-item">
+96|                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+97|                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+98|                                    </svg>
+99|                                    <span>4+ years of hands-on experience in financial advisory</span>
+100|                                </div>
+101|                                <div class="highlight-item">
+102|                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+103|                                        <circle cx="12" cy="12" r="3"/>
+104|                                        <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
+105|                                    </svg>
+106|                                    <span>Expertise in financial due diligence and MIS reporting</span>
+107|                                </div>
+108|                                <div class="highlight-item">
+109|                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+110|                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+111|                                        <circle cx="9" cy="7" r="4"/>
+112|                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"/>
+113|                                    </svg>
+114|                                    <span>Proven track record in client relationship management</span>
+115|                                </div>
+116|                            </div>
+117|                        </div>
+118|                    </div>
+119|                    <div class="about-stats">
+120|                        <div class="stats-grid">
+121|                            <div class="stat-card">
+122|                                <div class="stat-number">4+</div>
+123|                                <div class="stat-label">Years Experience</div>
+124|                            </div>
+125|                            <div class="stat-card">
+126|                                <div class="stat-number">₹600Cr+</div>
+127|                                <div class="stat-label">Turnover Handled</div>
+128|                            </div>
+129|                            <div class="stat-card">
+130|                                <div class="stat-number">CA</div>
+131|                                <div class="stat-label">Final Stage</div>
+132|                            </div>
+133|                            <div class="stat-card">
+134|                                <div class="stat-number">Award</div>
+135|                                <div class="stat-label">Best Performer</div>
+136|                            </div>
+137|                        </div>
+138|                        <div class="expertise-card">
+139|                            <h4>Expertise Areas</h4>
+140|                            <div class="expertise-tags">
+141|                                <span class="tag">CFO Advisory</span>
+142|                                <span class="tag">Due Diligence</span>
+143|                                <span class="tag">Financial Analysis</span>
+144|                                <span class="tag">MIS Reporting</span>
+145|                                <span class="tag">Internal Audit</span>
+146|                                <span class="tag">Tax Compliance</span>
+147|                            </div>
+148|                        </div>
+149|                    </div>
+150|                </div>
+151|            </div>
+152|        </section>
+153|
+154|        <!-- Contact Section -->
+155|        <section class="contact section" id="contact">
+156|            <div class="container">
+157|                <div class="section-header">
+158|                    <h2 class="section-title">Let's Connect</h2>
+159|                    <p class="section-subtitle">Ready to discuss opportunities or have questions? I'd love to hear from you.</p>
+160|                </div>
+161|                <div class="contact-grid">
+162|                    <div class="contact-info">
+163|                        <h3>Get In Touch</h3>
+164|                        <p class="contact-description">
+165|                            Whether you're looking for a dedicated finance professional or want to discuss 
+166|                            potential collaborations, I'm always open to new opportunities and challenges.
+167|                        </p>
+168|                        
+169|                        <div class="contact-methods">
+170|                            <div class="contact-method">
+171|                                <div class="contact-icon email">📧</div>
+172|                                <div class="contact-details">
+173|                                    <h4>Email</h4>
+174|                                    <a href="mailto:singhadarsh00000@gmail.com">singhadarsh00000@gmail.com</a>
+175|                                </div>
+176|                            </div>
+177|                            <div class="contact-method">
+178|                                <div class="contact-icon phone">📞</div>
+179|                                <div class="contact-details">
+180|                                    <h4>Phone</h4>
+181|                                    <a href="tel:+919167480352">+91 9167480352</a>
+182|                                </div>
+183|                            </div>
+184|                            <div class="contact-method">
+185|                                <div class="contact-icon linkedin">💼</div>
+186|                                <div class="contact-details">
+187|                                    <h4>LinkedIn</h4>
+188|                                    <a href="#">Connect on LinkedIn</a>
+189|                                </div>
+190|                            </div>
+191|                        </div>
+192|
+193|                        <div class="location-info">
+194|                            <div class="location-icon">📍</div>
+195|                            <div>
+196|                                <h4>Location</h4>
+197|                                <p>Mumbai, India</p>
+198|                                <p class="location-note">Available for remote work and travel opportunities</p>
+199|                            </div>
+200|                        </div>
+201|                    </div>
+202|
+203|                    <div class="contact-form-container">
+204|                        <h3>Send a Message</h3>
+205|                        <div class="contact-form">
+206|                            <p class="form-note">📧 Please contact me directly via email: <a href="mailto:singhadarsh00000@gmail.com">singhadarsh00000@gmail.com</a></p>
+207|                            <p class="form-note">📞 Or call: <a href="tel:+919167480352">+91 9167480352</a></p>
+208|                        </div>
+209|                    </div>
+210|                </div>
+211|            </div>
+212|        </section>
+213|    </main>
+214|
+215|    <!-- Footer -->
+216|    <footer class="footer">
+217|        <div class="container">
+218|            <div class="footer-content">
+219|                <div class="footer-section">
+220|                    <h3>Adarsh Singh</h3>
+221|                    <p>Chartered Accountant focused on delivering exceptional financial advisory services and strategic insights for business growth.</p>
+222|                </div>
+223|                
+224|                <div class="footer-section">
+225|                    <h4>Quick Links</h4>
+226|                    <div class="footer-links">
+227|                        <a href="#about">About</a>
+228|                        <a href="#skills">Skills</a>
+229|                        <a href="#experience">Experience</a>
+230|                        <a href="#education">Education</a>
+231|                        <a href="#contact">Contact</a>
+232|                    </div>
+233|                </div>
+234|                
+235|                <div class="footer-section">
+236|                    <h4>Connect</h4>
+237|                    <div class="footer-contact">
+238|                        <a href="mailto:singhadarsh00000@gmail.com">singhadarsh00000@gmail.com</a>
+239|                        <a href="tel:+919167480352">+91 9167480352</a>
+240|                    </div>
+241|                </div>
+242|            </div>
+243|            
+244|            <div class="footer-bottom">
+245|                <div class="footer-bottom-content">
+246|                    <div class="copyright">
+247|                        <span>© 2024 Adarsh Singh. Built with passion</span>
+248|                    </div>
+249|                    <button onclick="scrollToTop()" class="back-to-top">Back to Top</button>
+250|                </div>
+251|            </div>
+252|        </div>
+253|    </footer>
+254|
+255|    <script src="script.js"></script>
+256|</body>
+257|</html>
+
+
+/app/portfolio-static/style.css:
+1|/* Reset and Base Styles */
+2|* {
+3|    margin: 0;
+4|    padding: 0;
+5|    box-sizing: border-box;
+6|}
+7|
+8|html {
+9|    scroll-behavior: smooth;
+10|}
+11|
+12|body {
+13|    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+14|    line-height: 1.6;
+15|    color: #1f2937;
+16|    background-color: #f8fafc;
+17|}
+18|
+19|/* Navigation */
+20|.header {
+21|    position: fixed;
+22|    top: 0;
+23|    left: 0;
+24|    right: 0;
+25|    z-index: 1000;
+26|    background: rgba(255, 255, 255, 0.95);
+27|    backdrop-filter: blur(10px);
+28|    border-bottom: 1px solid #e2e8f0;
+29|    transition: all 0.3s ease;
+30|}
+31|
+32|.nav-container {
+33|    max-width: 1200px;
+34|    margin: 0 auto;
+35|    padding: 0 2rem;
+36|    display: flex;
+37|    align-items: center;
+38|    justify-content: space-between;
+39|    height: 4rem;
+40|}
+41|
+42|.nav-logo {
+43|    font-size: 1.5rem;
+44|    font-weight: 700;
+45|    color: #1f2937;
+46|    text-decoration: none;
+47|    transition: color 0.3s ease;
+48|}
+49|
+50|.nav-logo:hover {
+51|    color: #3b82f6;
+52|}
+53|
+54|.nav-menu {
+55|    display: flex;
+56|    gap: 2rem;
+57|}
+58|
+59|.nav-link {
+60|    color: #64748b;
+61|    text-decoration: none;
+62|    font-weight: 500;
+63|    position: relative;
+64|    transition: color 0.3s ease;
+65|}
+66|
+67|.nav-link:hover {
+68|    color: #3b82f6;
+69|}
+70|
+71|.nav-link::after {
+72|    content: '';
+73|    position: absolute;
+74|    bottom: -0.5rem;
+75|    left: 0;
+76|    width: 0;
+77|    height: 2px;
+78|    background: #3b82f6;
+79|    transition: width 0.3s ease;
+80|}
+81|
+82|.nav-link:hover::after {
+83|    width: 100%;
+84|}
+85|
+86|.nav-toggle {
+87|    display: none;
+88|    flex-direction: column;
+89|    cursor: pointer;
+90|}
+91|
+92|.nav-toggle span {
+93|    width: 25px;
+94|    height: 3px;
+95|    background: #1f2937;
+96|    margin: 3px 0;
+97|    transition: 0.3s;
+98|}
+99|
+100|/* Hero Section */
+101|.hero {
+102|    min-height: 100vh;
+103|    display: flex;
+104|    align-items: center;
+105|    background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+106|    position: relative;
+107|    overflow: hidden;
+108|}
+109|
+110|.hero::before {
+111|    content: '';
+112|    position: absolute;
+113|    top: 0;
+114|    left: 0;
+115|    right: 0;
+116|    bottom: 0;
+117|    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="25" cy="25" r="1" fill="%233b82f6" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="%2306b6d4" opacity="0.1"/></svg>');
+118|}
+119|
+120|.hero-container {
+121|    max-width: 1200px;
+122|    margin: 0 auto;
+123|    padding: 0 2rem;
+124|    position: relative;
+125|    z-index: 1;
+126|}
+127|
+128|.hero-content {
+129|    text-align: center;
+130|    max-width: 800px;
+131|    margin: 0 auto;
+132|}
+133|
+134|.hero-badge {
+135|    display: inline-flex;
+136|    align-items: center;
+137|    gap: 0.5rem;
+138|    padding: 0.5rem 1rem;
+139|    background: #dbeafe;
+140|    color: #1d4ed8;
+141|    border-radius: 2rem;
+142|    font-size: 0.875rem;
+143|    font-weight: 500;
+144|    margin-bottom: 2rem;
+145|}
+146|
+147|.badge-dot {
+148|    width: 8px;
+149|    height: 8px;
+150|    background: #3b82f6;
+151|    border-radius: 50%;
+152|    animation: pulse 2s infinite;
+153|}
+154|
+155|@keyframes pulse {
+156|    0%, 100% { opacity: 1; }
+157|    50% { opacity: 0.5; }
+158|}
+159|
+160|.hero-title {
+161|    font-size: clamp(2.5rem, 5vw, 4rem);
+162|    font-weight: 800;
+163|    line-height: 1.1;
+164|    margin-bottom: 1rem;
+165|}
+166|
+167|.hero-greeting {
+168|    display: block;
+169|    color: #1f2937;
+170|}
+171|
+172|.hero-name {
+173|    display: block;
+174|    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+175|    -webkit-background-clip: text;
+176|    -webkit-text-fill-color: transparent;
+177|    background-clip: text;
+178|}
+179|
+180|.hero-subtitle {
+181|    font-size: 1.5rem;
+182|    font-weight: 600;
+183|    color: #64748b;
+184|    margin-bottom: 1rem;
+185|}
+186|
+187|.hero-description {
+188|    font-size: 1.125rem;
+189|    color: #64748b;
+190|    margin-bottom: 2rem;
+191|    max-width: 600px;
+192|    margin-left: auto;
+193|    margin-right: auto;
+194|}
+195|
+196|.hero-buttons {
+197|    display: flex;
+198|    gap: 1rem;
+199|    justify-content: center;
+200|    flex-wrap: wrap;
+201|}
+202|
+203|/* Buttons */
+204|.btn {
+205|    display: inline-flex;
+206|    align-items: center;
+207|    gap: 0.5rem;
+208|    padding: 0.875rem 2rem;
+209|    border-radius: 0.75rem;
+210|    text-decoration: none;
+211|    font-weight: 600;
+212|    font-size: 1rem;
+213|    transition: all 0.3s ease;
+214|    border: none;
+215|    cursor: pointer;
+216|}
+217|
+218|.btn-primary {
+219|    background: #3b82f6;
+220|    color: white;
+221|    box-shadow: 0 4px 14px rgba(59, 130, 246, 0.25);
+222|}
+223|
+224|.btn-primary:hover {
+225|    background: #2563eb;
+226|    transform: translateY(-2px);
+227|    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.35);
+228|}
+229|
+230|.btn-secondary {
+231|    background: transparent;
+232|    color: #3b82f6;
+233|    border: 2px solid #3b82f6;
+234|}
+235|
+236|.btn-secondary:hover {
+237|    background: #3b82f6;
+238|    color: white;
+239|    transform: translateY(-2px);
+240|}
+241|
+242|/* Sections */
+243|.section {
+244|    padding: 5rem 0;
+245|}
+246|
+247|.container {
+248|    max-width: 1200px;
+249|    margin: 0 auto;
+250|    padding: 0 2rem;
+251|}
+252|
+253|.section-header {
+254|    text-align: center;
+255|    margin-bottom: 4rem;
+256|}
+257|
+258|.section-title {
+259|    font-size: 2.5rem;
+260|    font-weight: 700;
+261|    color: #1f2937;
+262|    margin-bottom: 1rem;
+263|}
+264|
+265|.section-subtitle {
+266|    font-size: 1.125rem;
+267|    color: #64748b;
+268|    max-width: 600px;
+269|    margin: 0 auto;
+270|}
+271|
+272|/* About Section */
+273|.about {
+274|    background: white;
+275|}
+276|
+277|.about-grid {
+278|    display: grid;
+279|    grid-template-columns: 1fr 1fr;
+280|    gap: 4rem;
+281|    align-items: start;
+282|}
+283|
+284|.about-text {
+285|    font-size: 1.125rem;
+286|    color: #4b5563;
+287|    line-height: 1.7;
+288|    margin-bottom: 2rem;
+289|}
+290|
+291|.highlights-title {
+292|    font-size: 1.25rem;
+293|    font-weight: 600;
+294|    color: #1f2937;
+295|    margin-bottom: 1rem;
+296|}
+297|
+298|.highlight-item {
+299|    display: flex;
+300|    align-items: flex-start;
+301|    gap: 0.75rem;
+302|    margin-bottom: 1rem;
+303|}
+304|
+305|.highlight-item svg {
+306|    color: #3b82f6;
+307|    margin-top: 0.25rem;
+308|    flex-shrink: 0;
+309|}
+310|
+311|.stats-grid {
+312|    display: grid;
+313|    grid-template-columns: 1fr 1fr;
+314|    gap: 1rem;
+315|    margin-bottom: 2rem;
+316|}
+317|
+318|.stat-card {
+319|    background: white;
+320|    padding: 1.5rem;
+321|    border-radius: 0.75rem;
+322|    text-align: center;
+323|    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+324|    border: 1px solid #e5e7eb;
+325|    transition: all 0.3s ease;
+326|}
+327|
+328|.stat-card:hover {
+329|    transform: translateY(-4px);
+330|    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+331|}
+332|
+333|.stat-number {
+334|    font-size: 2rem;
+335|    font-weight: 700;
+336|    color: #3b82f6;
+337|    margin-bottom: 0.5rem;
+338|}
+339|
+340|.stat-label {
+341|    font-size: 0.875rem;
+342|    color: #64748b;
+343|    text-transform: uppercase;
+344|    letter-spacing: 0.05em;
+345|}
+346|
+347|.expertise-card {
+348|    background: linear-gradient(135deg, #dbeafe, #ecfdf5);
+349|    padding: 1.5rem;
+350|    border-radius: 0.75rem;
+351|}
+352|
+353|.expertise-card h4 {
+354|    font-weight: 600;
+355|    color: #1f2937;
+356|    margin-bottom: 1rem;
+357|}
+358|
+359|.expertise-tags {
+360|    display: flex;
+361|    flex-wrap: wrap;
+362|    gap: 0.5rem;
+363|}
+364|
+365|.tag {
+366|    background: white;
+367|    color: #374151;
+368|    padding: 0.25rem 0.75rem;
+369|    border-radius: 1rem;
+370|    font-size: 0.875rem;
+371|    font-weight: 500;
+372|    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+373|}
+374|
+375|/* Contact Section */
+376|.contact {
+377|    background: #f8fafc;
+378|}
+379|
+380|.contact-grid {
+381|    display: grid;
+382|    grid-template-columns: 1fr 1fr;
+383|    gap: 4rem;
+384|}
+385|
+386|.contact-info h3 {
+387|    font-size: 1.5rem;
+388|    font-weight: 600;
+389|    color: #1f2937;
+390|    margin-bottom: 1rem;
+391|}
+392|
+393|.contact-description {
+394|    color: #64748b;
+395|    margin-bottom: 2rem;
+396|    line-height: 1.6;
+397|}
+398|
+399|.contact-methods {
+400|    margin-bottom: 2rem;
+401|}
+402|
+403|.contact-method {
+404|    display: flex;
+405|    align-items: center;
+406|    gap: 1rem;
+407|    padding: 1rem;
+408|    background: white;
+409|    border-radius: 0.75rem;
+410|    margin-bottom: 1rem;
+411|    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+412|    transition: all 0.3s ease;
+413|}
+414|
+415|.contact-method:hover {
+416|    transform: translateY(-2px);
+417|    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+418|}
+419|
+420|.contact-icon {
+421|    width: 48px;
+422|    height: 48px;
+423|    border-radius: 0.75rem;
+424|    display: flex;
+425|    align-items: center;
+426|    justify-content: center;
+427|    font-size: 1.5rem;
+428|}
+429|
+430|.contact-icon.email { background: #dbeafe; }
+431|.contact-icon.phone { background: #dcfce7; }
+432|.contact-icon.linkedin { background: #ddd6fe; }
+433|
+434|.contact-details h4 {
+435|    font-weight: 600;
+436|    color: #1f2937;
+437|    margin-bottom: 0.25rem;
+438|}
+439|
+440|.contact-details a {
+441|    color: #3b82f6;
+442|    text-decoration: none;
+443|    transition: color 0.3s ease;
+444|}
+445|
+446|.contact-details a:hover {
+447|    color: #2563eb;
+448|}
+449|
+450|.location-info {
+451|    display: flex;
+452|    align-items: start;
+453|    gap: 1rem;
+454|    padding: 1.5rem;
+455|    background: linear-gradient(135deg, #dbeafe, #ecfdf5);
+456|    border-radius: 0.75rem;
+457|}
+458|
+459|.location-icon {
+460|    font-size: 1.25rem;
+461|    margin-top: 0.25rem;
+462|}
+463|
+464|.location-info h4 {
+465|    font-weight: 600;
+466|    color: #1f2937;
+467|    margin-bottom: 0.5rem;
+468|}
+469|
+470|.location-info p {
+471|    color: #4b5563;
+472|    margin-bottom: 0.5rem;
+473|}
+474|
+475|.location-note {
+476|    font-size: 0.875rem;
+477|    color: #64748b;
+478|}
+479|
+480|.contact-form-container {
+481|    background: white;
+482|    padding: 2rem;
+483|    border-radius: 0.75rem;
+484|    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+485|}
+486|
+487|.contact-form-container h3 {
+488|    font-size: 1.25rem;
+489|    font-weight: 600;
+490|    color: #1f2937;
+491|    margin-bottom: 1.5rem;
+492|}
+493|
+494|.form-note {
+495|    padding: 1rem;
+496|    background: #f0f9ff;
+497|    border: 1px solid #bae6fd;
+498|    border-radius: 0.5rem;
+499|    margin-bottom: 1rem;
+500|    color: #0c4a6e;
+501|}
+502|
+503|.form-note a {
+504|    color: #0369a1;
+505|    font-weight: 600;
+506|    text-decoration: none;
+507|}
+508|
+509|.form-note a:hover {
+510|    text-decoration: underline;
+511|}
+512|
+513|/* Footer */
+514|.footer {
+515|    background: #1f2937;
+516|    color: white;
+517|    padding: 3rem 0 1rem;
+518|}
+519|
+520|.footer-content {
+521|    display: grid;
+522|    grid-template-columns: 2fr 1fr 1fr;
+523|    gap: 2rem;
+524|    margin-bottom: 2rem;
+525|}
+526|
+527|.footer-section h3 {
+528|    font-size: 1.5rem;
+529|    font-weight: 600;
+530|    margin-bottom: 1rem;
+531|}
+532|
+533|.footer-section h4 {
+534|    font-size: 1.125rem;
+535|    font-weight: 600;
+536|    margin-bottom: 1rem;
+537|    color: #d1d5db;
+538|}
+539|
+540|.footer-section p {
+541|    color: #9ca3af;
+542|    line-height: 1.6;
+543|}
+544|
+545|.footer-links {
+546|    display: flex;
+547|    flex-direction: column;
+548|    gap: 0.5rem;
+549|}
+550|
+551|.footer-links a,
+552|.footer-contact a {
+553|    color: #9ca3af;
+554|    text-decoration: none;
+555|    transition: color 0.3s ease;
+556|}
+557|
+558|.footer-links a:hover,
+559|.footer-contact a:hover {
+560|    color: white;
+561|}
+562|
+563|.footer-bottom {
+564|    border-top: 1px solid #374151;
+565|    padding-top: 1rem;
+566|}
+567|
+568|.footer-bottom-content {
+569|    display: flex;
+570|    justify-content: space-between;
+571|    align-items: center;
+572|}
+573|
+574|.copyright {
+575|    color: #9ca3af;
+576|    font-size: 0.875rem;
+577|}
+578|
+579|.back-to-top {
+580|    background: #3b82f6;
+581|    color: white;
+582|    border: none;
+583|    padding: 0.5rem 1rem;
+584|    border-radius: 0.5rem;
+585|    cursor: pointer;
+586|    font-weight: 500;
+587|    transition: all 0.3s ease;
+588|}
+589|
+590|.back-to-top:hover {
+591|    background: #2563eb;
+592|    transform: translateY(-2px);
+593|}
+594|
+595|/* Responsive Design */
+596|@media (max-width: 768px) {
+597|    .nav-menu {
+598|        display: none;
+599|    }
+600|    
+601|    .nav-toggle {
+602|        display: flex;
+603|    }
+604|    
+605|    .hero-buttons {
+606|        flex-direction: column;
+607|        align-items: center;
+608|    }
+609|    
+610|    .btn {
+611|        width: 100%;
+612|        max-width: 300px;
+613|        justify-content: center;
+614|    }
+615|    
+616|    .about-grid,
+617|    .contact-grid {
+618|        grid-template-columns: 1fr;
+619|        gap: 2rem;
+620|    }
+621|    
+622|    .stats-grid {
+623|        grid-template-columns: 1fr;
+624|    }
+625|    
+626|    .footer-content {
+627|        grid-template-columns: 1fr;
+628|        text-align: center;
+629|        gap: 1.5rem;
+630|    }
+631|    
+632|    .footer-bottom-content {
+633|        flex-direction: column;
+634|        gap: 1rem;
+635|        text-align: center;
+636|    }
+637|    
+638|    .section {
+639|        padding: 3rem 0;
+640|    }
+641|    
+642|    .section-title {
+643|        font-size: 2rem;
+644|    }
+645|    
+646|    .container {
+647|        padding: 0 1rem;
+648|    }
+649|}
+650|
+651|@media (max-width: 480px) {
+652|    .hero-title {
+653|        font-size: 2rem;
+654|    }
+655|    
+656|    .hero-subtitle {
+657|        font-size: 1.25rem;
+658|    }
+659|    
+660|    .hero-description {
+661|        font-size: 1rem;
+662|    }
+663|    
+664|    .nav-container {
+665|        padding: 0 1rem;
+666|    }
+667|}
+
+
+/app/portfolio-static/script.js:
+1|// Smooth scrolling for navigation links
+2|document.addEventListener('DOMContentLoaded', function() {
+3|    // Mobile menu toggle
+4|    const navToggle = document.getElementById('nav-toggle');
+5|    const navMenu = document.getElementById('nav-menu');
+6|    
+7|    if (navToggle && navMenu) {
+8|        navToggle.addEventListener('click', function() {
+9|            navMenu.classList.toggle('show');
+10|            navToggle.classList.toggle('active');
+11|        });
+12|    }
+13|    
+14|    // Smooth scrolling for all anchor links
+15|    const links = document.querySelectorAll('a[href^="#"]');
+16|    
+17|    links.forEach(link => {
+18|        link.addEventListener('click', function(e) {
+19|            e.preventDefault();
+20|            
+21|            const targetId = this.getAttribute('href');
+22|            const targetElement = document.querySelector(targetId);
+23|            
+24|            if (targetElement) {
+25|                const headerOffset = 80;
+26|                const elementPosition = targetElement.offsetTop;
+27|                const offsetPosition = elementPosition - headerOffset;
+28|                
+29|                window.scrollTo({
+30|                    top: offsetPosition,
+31|                    behavior: 'smooth'
+32|                });
+33|                
+34|                // Close mobile menu if open
+35|                if (navMenu.classList.contains('show')) {
+36|                    navMenu.classList.remove('show');
+37|                    navToggle.classList.remove('active');
+38|                }
+39|            }
+40|        });
+41|    });
+42|    
+43|    // Header background on scroll
+44|    const header = document.getElementById('header');
+45|    
+46|    window.addEventListener('scroll', function() {
+47|        if (window.scrollY > 100) {
+48|            header.classList.add('scrolled');
+49|        } else {
+50|            header.classList.remove('scrolled');
+51|        }
+52|    });
+53|    
+54|    // Animate elements on scroll
+55|    const observerOptions = {
+56|        threshold: 0.1,
+57|        rootMargin: '0px 0px -100px 0px'
+58|    };
+59|    
+60|    const observer = new IntersectionObserver(function(entries) {
+61|        entries.forEach(entry => {
+62|            if (entry.isIntersecting) {
+63|                entry.target.classList.add('animate-in');
+64|            }
+65|        });
+66|    }, observerOptions);
+67|    
+68|    // Observe elements for animation
+69|    const animateElements = document.querySelectorAll('.stat-card, .contact-method, .highlight-item');
+70|    animateElements.forEach(el => {
+71|        el.style.opacity = '0';
+72|        el.style.transform = 'translateY(30px)';
+73|        el.style.transition = 'all 0.6s ease';
+74|        observer.observe(el);
+75|    });
+76|    
+77|    // Add animation styles
+78|    const style = document.createElement('style');
+79|    style.textContent = `
+80|        .animate-in {
+81|            opacity: 1 !important;
+82|            transform: translateY(0) !important;
+83|        }
+84|        
+85|        .nav-menu.show {
+86|            display: flex !important;
+87|            flex-direction: column;
+88|            position: absolute;
+89|            top: 100%;
+90|            left: 0;
+91|            right: 0;
+92|            background: white;
+93|            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+94|            padding: 1rem;
+95|            gap: 1rem;
+96|        }
+97|        
+98|        .nav-toggle.active span:nth-child(1) {
+99|            transform: rotate(45deg) translate(5px, 5px);
+100|        }
+101|        
+102|        .nav-toggle.active span:nth-child(2) {
+103|            opacity: 0;
+104|        }
+105|        
+106|        .nav-toggle.active span:nth-child(3) {
+107|            transform: rotate(-45deg) translate(7px, -6px);
+108|        }
+109|        
+110|        .header.scrolled {
+111|            background: rgba(255, 255, 255, 0.98);
+112|            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+113|        }
+114|        
+115|        @media (max-width: 768px) {
+116|            .nav-menu {
+117|                display: none;
+118|            }
+119|        }
+120|    `;
+121|    document.head.appendChild(style);
+122|});
+123|
+124|// Back to top functionality
+125|function scrollToTop() {
+126|    window.scrollTo({
+127|        top: 0,
+128|        behavior: 'smooth'
+129|    });
+130|}
+131|
+132|// Form submission handling (static version - no backend)
+133|function handleFormSubmit(event) {
+134|    event.preventDefault();
+135|    alert('Thank you for your message! This is a static version. Please contact me directly via email: singhadarsh00000@gmail.com');
+136|}
+137|
+138|// Add some interactive hover effects
+139|document.addEventListener('DOMContentLoaded', function() {
+140|    // Add hover effect to stat cards
+141|    const statCards = document.querySelectorAll('.stat-card');
+142|    statCards.forEach(card => {
+143|        card.addEventListener('mouseenter', function() {
+144|            this.style.transform = 'translateY(-8px) scale(1.02)';
+145|        });
+146|        
+147|        card.addEventListener('mouseleave', function() {
+148|            this.style.transform = 'translateY(0) scale(1)';
+149|        });
+150|    });
+151|    
+152|    // Add click effect to buttons
+153|    const buttons = document.querySelectorAll('.btn');
+154|    buttons.forEach(button => {
+155|        button.addEventListener('mousedown', function() {
+156|            this.style.transform = 'scale(0.98)';
+157|        });
+158|        
+159|        button.addEventListener('mouseup', function() {
+160|            this.style.transform = 'scale(1)';
+161|        });
+162|        
+163|        button.addEventListener('mouseleave', function() {
+164|            this.style.transform = 'scale(1)';
+165|        });
+166|    });
+167|    
+168|    // Typing effect for hero subtitle (optional enhancement)
+169|    const subtitle = document.querySelector('.hero-subtitle');
+170|    if (subtitle) {
+171|        const text = subtitle.textContent;
+172|        subtitle.textContent = '';
+173|        let i = 0;
+174|        
+175|        function typeWriter() {
+176|            if (i < text.length) {
+177|                subtitle.textContent += text.charAt(i);
+178|                i++;
+179|                setTimeout(typeWriter, 100);
+180|            }
+181|        }
+182|        
+183|        // Start typing effect after a delay
+184|        setTimeout(typeWriter, 1000);
+185|    }
+186|});
+
+
+/app/portfolio-static/CV.pdf:
+1|ADARSH SINGH
+2|Growth-Oriented Finance Professional
+3|📧 singhadarsh00000@gmail.com | 📞 +91 9167480352 | 📍 Mumbai, India
+4|
+5|═══════════════════════════════════════════════════════════════════════
+6|
+7|PROFESSIONAL SUMMARY
+8|═══════════════════════════════════════════════════════════════════════
+9|
+10|Growth-oriented Chartered Accountant with hands-on articleship experience in CFO advisory, Club Audit and Financial due diligence. Eager to embrace challenges, learn new skills, and consistently push limits to achieve goals. Recognized as 'Man of the Series' for outstanding performance during articleship at Doshi Jain & Co.
+11|
+12|KEY HIGHLIGHTS:
+13|✓ CA Final candidate with strong academic performance
+14|✓ 4+ years of hands-on experience in financial advisory
+15|✓ Expertise in financial due diligence and MIS reporting  
+16|✓ Proven track record in client relationship management
+17|
+18|═══════════════════════════════════════════════════════════════════════
+19|
+20|PROFESSIONAL EXPERIENCE
+21|═══════════════════════════════════════════════════════════════════════
+22|
+23|ARTICLE ASSISTANT | Doshi Jain & Co., Mumbai
+24|Oct 2021 – Jul 2025 | Full-time
+25|
+26|CFO ADVISORY
+27|• Developed and analysed monthly MIS reports, cash flow statements, key performance indicators (KPIs) and variance analysis resulting in delivering strategic insights to management and PE funds
+28|• Prepared financial statements as per IND AS, AS and Schedule III of corporate entities having turnover in the range of ₹ 300-600 crores
+29|• Assisted in comprehensive reconciliations across multiple e-commerce platforms, identifying revenue discrepancies and uncovering payment leakages
+30|• Conducted Internal Financial Control (IFC) testing of various processes and prepared a testing file and gap tracker
+31|
+32|FINANCIAL DUE DILIGENCE
+33|• Conducted multiple buy-side financial due diligence in the healthcare sector
+34|• Reviewed revenue recognition practices, cost structures, and EBITDA, and conducted variance and trend analysis across key P&L items
+35|• Analysed financial statements, identified key risks, prepared comprehensive databooks and due diligence reports for transactions
+36|
+37|INTERNAL AUDIT
+38|• Audited End to End Procure to Pay (P2P) Cycle
+39|• Audited High volume Night Club Operations at Mumbai & Goa Locations, ensuring proper band issuance and cash handling during peak events
+40|• Conducted sales to cash reconciliation at Night clubs to identify and report any discrepancies to Management
+41|
+42|TAX AUDIT
+43|• Assisted in Conducting tax Audit for a Portfolio of Clients ensuring compliance with Income Tax Act, GST etc
+44|
+45|═══════════════════════════════════════════════════════════════════════
+46|
+47|EDUCATION & QUALIFICATIONS
+48|═══════════════════════════════════════════════════════════════════════
+49|
+50|CHARTERED ACCOUNTANCY PROGRESSION:
+51|┌─────────────────────────────────────────────────────────────────┐
+52|│ CA Final     │ ICAI        │ May 2025    │ 301/600  │ Pending FR & Audit │
+53|│ CA Inter     │ ICAI        │ Jul 2021    │ 435/800  │ Exemption in 3 subjects │
+54|│ CA CPT       │ ICAI        │ Dec 2018    │ 118/200  │ Passed              │
+55|└─────────────────────────────────────────────────────────────────┘
+56|
+57|ACADEMIC QUALIFICATIONS:
+58|┌─────────────────────────────────────────────────────────────────┐
+59|│ B.Com.       │ Mumbai University        │ 2018-2021 │ CGPA 7.40 (1340/1800) │
+60|│ Class XII    │ Prahladrai Dalmia Lions  │ Mar 2018  │ 425/650 (82/100 Accounts) │
+61|│ Class X-SSC  │ The Saraswati Vidyalaya  │ Mar 2016  │ 386/500 (82/100 Hindi) │
+62|└─────────────────────────────────────────────────────────────────┘
+63|
+64|═══════════════════════════════════════════════════════════════════════
+65|
+66|CORE COMPETENCIES
+67|═══════════════════════════════════════════════════════════════════════
+68|
+69|FINANCIAL SKILLS:
+70|• Financial Reporting (90%)        • Financial Analysis (95%)
+71|• Variance Analysis (88%)          • Due Diligence (92%)  
+72|• MIS Reporting (90%)             • Internal Audit (85%)
+73|
+74|TECHNICAL SKILLS:
+75|• MS Excel (95%)                  • MS PowerPoint (85%)
+76|• Financial Modeling (80%)        • MS Word (90%)
+77|
+78|PROFESSIONAL SKILLS:
+79|• Client Relationship Management  • Team Coordination
+80|• Strategic Thinking             • Problem Solving
+81|• Communication                  • Leadership
+82|
+83|═══════════════════════════════════════════════════════════════════════
+84|
+85|ACHIEVEMENTS & RECOGNITION
+86|═══════════════════════════════════════════════════════════════════════
+87|
+88|🏆 "Man of the Series" award from Doshi Jain and Co. for best performing 
+89|   article throughout the articleship period
+90|
+91|🏆 Endorsed by manager regarding client relationships, team coordination 
+92|   and efficiency
+93|
+94|🏆 Winner in the Cricket tournament organized by Scorpion (Year 2019)
+95|
+96|KEY METRICS:
+97|• ₹300-600 Crore: Corporate turnover managed
+98|• Healthcare Sector: Specialized due diligence expertise  
+99|• Multiple Projects: Buy-side financial due diligence completed
+100|
+101|═══════════════════════════════════════════════════════════════════════
+102|
+103|INTERESTS & ACTIVITIES
+104|═══════════════════════════════════════════════════════════════════════
+105|
+106|• Geopolitics & International Relations
+107|• Current Affairs & Financial Markets
+108|• Cricket & Sports Activities
+109|• Continuous Learning & Professional Development
+110|
+111|═══════════════════════════════════════════════════════════════════════
+112|
+113|CONTACT INFORMATION
+114|═══════════════════════════════════════════════════════════════════════
+115|
+116|📧 Email:     singhadarsh00000@gmail.com
+117|📞 Phone:     +91 9167480352  
+118|📍 Location:  Mumbai, India
+119|💼 LinkedIn:  Available upon request
+120|🌐 Portfolio: Professional portfolio website available
+121|
+122|Available for: Full-time opportunities, Consulting projects, Remote work
+123|Willing to relocate: Yes, for the right opportunity
+124|
+125|═══════════════════════════════════════════════════════════════════════
+126|
+127|Note: This resume represents my professional journey as a finance professional 
+128|specializing in CFO advisory, financial due diligence, and strategic financial 
+129|analysis. I am passionate about delivering insights that drive business growth.
+130|
+131|Last Updated: December 2024
+
+
