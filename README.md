@@ -1,4 +1,4 @@
-# Adarsh Singh - Professional Finance Portfolio
+# CA Adarsh Singh - Professional Finance Portfolio
 
 A modern, static portfolio website built to showcase my skills and experience as a growth-oriented finance professional. This website provides a comprehensive overview of my work in CFO advisory, financial due diligence, and strategic financial analysis.
 
